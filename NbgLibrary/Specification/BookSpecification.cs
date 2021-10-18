@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NbgLibrary.Specification
 {
-    public class BookSpecification:BaseSpecification<Book>
+    public class BookSpecification : BaseSpecification<Book>
     {
         public BookSpecification() : base()
         {
