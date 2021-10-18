@@ -21,13 +21,13 @@ namespace NbgLibrary.Data
         }
         public LibraryDbContext() { }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("Data Source = localhost; Initial Catalog = nbglib2021; Integrated Security = True");
-            }
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    if (!optionsBuilder.IsConfigured)
+        //    {
+        //        optionsBuilder.UseSqlServer("Data Source = localhost; Initial Catalog = nbglib2021; Integrated Security = True");
+        //    }
+        //}
 
 
     }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbgLibrary", "NbgLibrary\Nb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbgLibrary.Api", "NbgLibrary.Api\NbgLibrary.Api.csproj", "{3AAF05CA-00DE-40A9-BA47-D4550B58558C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbgLibrary.Testing", "NbgLibrary.Testing\NbgLibrary.Testing.csproj", "{CB95E75D-CA6C-406D-AA1C-257C1EE05189}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3AAF05CA-00DE-40A9-BA47-D4550B58558C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AAF05CA-00DE-40A9-BA47-D4550B58558C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AAF05CA-00DE-40A9-BA47-D4550B58558C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB95E75D-CA6C-406D-AA1C-257C1EE05189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB95E75D-CA6C-406D-AA1C-257C1EE05189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB95E75D-CA6C-406D-AA1C-257C1EE05189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB95E75D-CA6C-406D-AA1C-257C1EE05189}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
