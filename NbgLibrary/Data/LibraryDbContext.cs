@@ -14,7 +14,12 @@ namespace NbgLibrary.Data
         public DbSet<Book> Books { get; set; }
         public DbSet<Category> Categories { get; set; }
 
+        public LibraryDbContext(DbContextOptions<LibraryDbContext> options) : base(options)
+        {
 
+
+        }
+        public LibraryDbContext() { }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
