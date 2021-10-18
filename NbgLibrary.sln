@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbgLibrary", "NbgLibrary\NbgLibrary.csproj", "{EB51F193-DEF4-4391-9417-3935A751CA13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbgLibrary.Api", "NbgLibrary.Api\NbgLibrary.Api.csproj", "{3AAF05CA-00DE-40A9-BA47-D4550B58558C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EB51F193-DEF4-4391-9417-3935A751CA13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB51F193-DEF4-4391-9417-3935A751CA13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB51F193-DEF4-4391-9417-3935A751CA13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AAF05CA-00DE-40A9-BA47-D4550B58558C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AAF05CA-00DE-40A9-BA47-D4550B58558C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AAF05CA-00DE-40A9-BA47-D4550B58558C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AAF05CA-00DE-40A9-BA47-D4550B58558C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
